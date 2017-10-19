@@ -1,0 +1,11 @@
+.main_wrapper {
+    position: absolute;
+    top: 130px;
+    width: 90vw;
+    background: rgba(255,255,255,0.3);
+    display: flex;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    color: #222222;
+}
