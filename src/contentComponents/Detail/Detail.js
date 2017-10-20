@@ -11,7 +11,7 @@ export default class Detail extends Component {
     }
 
     componentDidMount() {
-        return axios.get(`http://localhost:3000/brands/brand/${this.props.match.params.brand}`)
+        return axios.get(`http://localhost:3000/brand/${this.props.match.params.brand}`)
         .then(res => {
             this.setState({
                 brandDetail: res.data
